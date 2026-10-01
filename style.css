@@ -1,0 +1,97 @@
+/* 1280 × 720. Equivalent page size: 960 × 540 pt. 1 PowerPoint pt = 4/3 canvas px. */
+@font-face {
+  font-family: 'BIZ UDPGothic'; font-style: normal; font-weight: 400;
+  src: local('BIZ UDPゴシック'), local('BIZ UDPGothic'), url('/fonts/BIZUDPGothic-Regular.ttf') format('truetype');
+  font-display: block;
+}
+@font-face {
+  font-family: 'BIZ UDPGothic'; font-style: normal; font-weight: 700;
+  src: local('BIZ UDPゴシック Bold'), local('BIZ UDPGothic Bold'), url('/fonts/BIZUDPGothic-Bold.ttf') format('truetype');
+  font-display: block;
+}
+:root {
+  --plain-font: Arial, 'BIZ UDPGothic', sans-serif;
+  --plain-red: #c00000;
+  --plain-blue: #002060;
+  --plain-title-size: 53.333px; /* 40 pt */
+  --plain-body-size: 37.333px; /* 28 pt */
+  --plain-caption-size: 29.333px; /* 22 pt */
+  --plain-margin: 40px;
+}
+.slidev-layout.plain {
+  width: 100%; height: 100%; padding: 0; background: #fff; color: #000;
+  font-family: var(--plain-font); font-size: var(--plain-body-size); line-height: 1.45;
+  display: flex; flex-direction: column; position: relative; text-align: left;
+  box-sizing: border-box; overflow: hidden; font-weight: 400;
+}
+.plain *, .plain *::before, .plain *::after { box-sizing: border-box; }
+.plain h1, .plain h2, .plain h3, .plain p, .plain ul, .plain ol, .plain figure { margin: 0; }
+.plain h1 { font-size: var(--plain-title-size); font-weight: 400; line-height: 1.2; letter-spacing: 0; }
+.plain h2 { font-size: 37.333px; font-weight: 700; line-height: 1.3; margin: 0 0 18px; }
+.plain h3 { font-size: 32px; font-weight: 700; line-height: 1.35; margin: 0 0 14px; }
+.plain strong { font-weight: 700; }
+.plain .plain-title-small { font-size: 45.333px; }
+.plain-header { flex: 0 0 auto; padding: 42px 110px 0 var(--plain-margin); }
+.plain-lead { font-size: 32px; line-height: 1.45; margin-top: 24px !important; margin-right: -60px !important; }
+.plain-page { position: absolute; right: 35px; top: 20px; font-size: 29.333px; line-height: 1; }
+.plain-body { flex: 1 1 auto; min-height: 0; padding: 36px var(--plain-margin) 22px; }
+.plain-takeaway { flex: 0 0 auto; text-align: center; font-size: 37.333px; line-height: 1.35; padding: 6px 44px 36px; }
+.plain-note { padding: 0 40px 13px; font-size: 18.667px; line-height: 1.3; color: #555; }
+.plain-note p, .plain-takeaway p { margin: 0 !important; }
+.plain-prose { height: 100%; }
+.plain-prose > p + p { margin-top: 25px; }
+.plain ul { list-style: disc; padding-left: 1.1em; }
+.plain ol { list-style: decimal; padding-left: 1.25em; }
+.plain li { padding-left: .08em; margin: 18px 0; }
+.plain li::marker { color: #000; }
+.plain li p { margin: 0; }
+.plain .red { color: var(--plain-red); }
+.plain .blue { color: var(--plain-blue); }
+.plain .muted { color: #999; }
+.plain .small { font-size: 29.333px; }
+.plain .center { text-align: center; }
+.plain .spaced { margin-top: 30px; }
+.plain-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 54px; height: 100%; align-items: stretch; }
+.plain-column { min-height: 0; min-width: 0; display: flex; flex-direction: column; }
+.plain-column > p { margin-bottom: 18px; }
+.plain-column > .plain-media { flex: 1; min-height: 0; }
+.plain-compare { gap: 64px; position: relative; }
+.plain-compare::after { content: ''; position: absolute; top: 2px; bottom: 2px; left: 50%; width: 1px; background: #bbb; }
+.plain-compare .plain-column { text-align: center; }
+.plain-compare .plain-column p { font-size: 32px; }
+.plain-figure-stage { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+.plain-media { width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 0; }
+.plain-media img { display: block; flex: 1 1 0; min-height: 0; max-height: 100%; width: 100%; object-fit: contain; }
+.plain-media figcaption { font-size: var(--plain-caption-size); text-align: center; margin-top: 13px; flex: 0 0 auto; }
+.plain-placeholder { border: 1px dashed #aaa; background: #fafafa; width: 100%; flex: 1; min-height: 100px; display: flex; align-items: center; justify-content: center; color: #777; font-size: 30px; }
+.plain-video { display: flex; flex-direction: column; min-height: 0; height: 100%; width: 100%; }
+.plain-video video { flex: 1 1 0; min-height: 0; height: 100%; width: 100%; object-fit: contain; background: #fff; }
+.plain-video figcaption { font-size: 29.333px; text-align: center; padding-top: 14px; }
+.plain-equation { display: flex; flex-direction: column; justify-content: center; height: 100%; gap: 24px; }
+.plain .katex-display { margin: 14px 0; font-size: 1.05em; }
+.plain-agenda { padding: 24px 65px; font-size: 40px; line-height: 1.6; }
+.plain-agenda ol { list-style: none; padding: 0; color: #999; }
+.plain-agenda li { margin: 30px 0; padding: 0; }
+.plain-agenda strong { color: #000; font-weight: 400; }
+.plain-summary { height: 100%; display: flex; flex-direction: column; justify-content: space-around; }
+.plain-summary h2 { margin-bottom: 12px; }
+.plain-summary p { margin-left: 25px; font-size: 34.667px; }
+.plain table { width: 100%; border-collapse: collapse; font-size: 32px; line-height: 1.4; margin: 12px 0; }
+.plain th { font-weight: 400; border-bottom: 1.5px solid #555; }
+.plain th, .plain td { padding: 23px 20px; text-align: center; border-left: 0; border-right: 0; border-top: 0; }
+.plain td { border-bottom: 1px solid #ddd; }
+.plain th:first-child, .plain td:first-child { text-align: left; font-weight: 700; width: 25%; }
+.plain tr:last-child td { border-bottom: 0; }
+.plain-cover-title { position: absolute; top: 235px; left: 95px; right: 95px; text-align: center; }
+.plain.plain-cover h1 { font-size: 64px; font-weight: 700; line-height: 1.4; }
+.plain-cover h1 p { margin: 0; }
+.plain-subtitle { margin-top: 20px !important; font-size: 29.333px; }
+.plain-cover-meta { position: absolute; bottom: 60px; left: 95px; right: 95px; text-align: center; font-size: 29.333px; line-height: 1.5; }
+.plain-author { font-size: 40px; margin-top: 12px !important; }
+.plain-date { position: absolute; right: 48px; top: 30px; font-size: 26.667px; }
+.plain-cover-english .plain-cover-title { top: 145px; }
+.plain.plain-cover-english h1 { font-size: 53.333px; line-height: 1.25; }
+@media print { .plain-video video { background: #fff; } }
+
+.plain-column > .plain-video { flex: 1 1 0; height: auto; }
+

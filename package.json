@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "@slidev/cli": "53.0.0",
+    "playwright-chromium": "1.58.2"
+  },
+  "overrides": {
+    "lodash-es": "4.18.1",
+    "monaco-editor@0.56.0": {
+      "dompurify": "3.4.16"
+    },
+    "pptxgenjs@4.0.1": {
+      "image-size": "2.0.4"
+    }
+  },
+  "name": "plain-slidev-template",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "slidev slides.md --open",
+    "dev:starter": "slidev starter.md --open",
+    "build": "slidev build slides.md",
+    "export": "slidev export slides.md --format pdf --per-slide",
+    "export:starter": "slidev export starter.md --format pdf --per-slide",
+    "build:starter": "slidev build starter.md --out dist-starter"
+  },
+  "description": "A plain, reusable Slidev template for Japanese presentations"
+}
