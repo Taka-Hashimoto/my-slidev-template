@@ -10,6 +10,7 @@ const numbered = computed(() => $frontmatter.numbered ?? $slidev.themeConfigs.pa
   <div class="slidev-layout plain" :class="$frontmatter.bodyClass">
     <span v-if="numbered" class="plain-page">{{ page }}</span>
     <header class="plain-header">
+      <p v-if="$frontmatter.section" class="plain-section">{{ $frontmatter.section }}</p>
       <h1 :class="{ 'plain-title-small': $frontmatter.smallTitle }">{{ $frontmatter.title }}</h1>
       <p v-if="$frontmatter.lead" class="plain-lead">{{ $frontmatter.lead }}</p>
     </header>

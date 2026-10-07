@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="388.8pt" height="288pt" viewBox="0 0 388.8 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.6.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 288 
+L 388.8 288 
+L 388.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 104.4 41.76 
+L 58.32 204.48 
+L 104.4 181.44 
+z
+" clip-path="url(#p7d6b0843ae)" style="fill: #ffffff; stroke: #4b5560; stroke-width: 1.6"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 104.4 41.76 
+L 150.48 204.48 
+L 104.4 181.44 
+z
+" clip-path="url(#p7d6b0843ae)" style="fill: #eef0f3; stroke: #4b5560; stroke-width: 1.6"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 284.4 41.76 
+L 238.32 204.48 
+L 284.4 181.44 
+z
+" clip-path="url(#p7d6b0843ae)" style="fill: #ffffff; stroke: #4b5560; stroke-width: 1.6"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 284.4 41.76 
+L 330.48 204.48 
+L 284.4 181.44 
+z
+" clip-path="url(#p7d6b0843ae)" style="fill: #eef0f3; stroke: #4b5560; stroke-width: 1.6"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 104.4 41.76 
+L 104.4 198 
+" clip-path="url(#p7d6b0843ae)" style="fill: none; stroke: #4b5560; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <defs>
+     <path id="m1d0e16ccd1" d="M 0 5 
+C 1.326016 5 2.597899 4.473168 3.535534 3.535534 
+C 4.473168 2.597899 5 1.326016 5 0 
+C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 
+C 2.597899 -4.473168 1.326016 -5 0 -5 
+C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 
+C -4.473168 -2.597899 -5 -1.326016 -5 0 
+C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 
+C -2.597899 4.473168 -1.326016 5 0 5 
+z
+" style="stroke: #ffffff; stroke-width: 1.5"/>
+    </defs>
+    <g clip-path="url(#p7d6b0843ae)">
+     <use xlink:href="#m1d0e16ccd1" x="104.4" y="113.76" style="fill: #002060; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="line2d_3">
+    <path d="M 284.4 41.76 
+L 284.4 198 
+" clip-path="url(#p7d6b0843ae)" style="fill: none; stroke: #4b5560; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <g clip-path="url(#p7d6b0843ae)">
+     <use xlink:href="#m1d0e16ccd1" x="284.4" y="163.44" style="fill: #002060; stroke: #ffffff; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 135.471767 95.5613 
+Q 123.274143 104.088608 111.076519 112.615917 
+" style="fill: none; stroke: #002060; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <!-- 重心 -->
+    <g style="fill: #002060" transform="translate(133.2 87.84) scale(0.22 -0.22)">
+     <defs>
+      <path id="BIZUDPGothic-Regular-91cd" d="M 2931 3559 
+L 2931 3994 
+L 231 3994 
+L 231 4384 
+L 2931 4384 
+L 2931 4825 
+Q 2613 4803 2453 4788 
+Q 1850 4741 1075 4709 
+L 869 5088 
+Q 3331 5188 4984 5459 
+L 5331 5100 
+Q 4356 4938 3659 4881 
+L 3422 4866 
+L 3422 4384 
+L 6169 4384 
+L 6169 3994 
+L 3422 3994 
+L 3422 3559 
+L 5594 3559 
+L 5594 1394 
+L 3422 1394 
+L 3422 909 
+L 5803 909 
+L 5803 525 
+L 3422 525 
+L 3422 19 
+L 6241 19 
+L 6241 -372 
+L 159 -372 
+L 159 19 
+L 2931 19 
+L 2931 525 
+L 594 525 
+L 594 909 
+L 2931 909 
+L 2931 1394 
+L 813 1394 
+L 813 3559 
+L 2931 3559 
+z
+M 2931 3200 
+L 1300 3200 
+L 1300 2663 
+L 2931 2663 
+L 2931 3200 
+z
+M 3422 3200 
+L 3422 2663 
+L 5100 2663 
+L 5100 3200 
+L 3422 3200 
+z
+M 2931 2309 
+L 1300 2309 
+L 1300 1753 
+L 2931 1753 
+L 2931 2309 
+z
+M 3422 2309 
+L 3422 1753 
+L 5100 1753 
+L 5100 2309 
+L 3422 2309 
+z
+" transform="scale(0.015625)"/>
+      <path id="BIZUDPGothic-Regular-5fc3" d="M 153 672 
+Q 703 1663 916 3144 
+L 1422 3041 
+Q 1191 1406 628 384 
+L 153 672 
+z
+M 2016 3969 
+L 2534 3969 
+L 2534 500 
+Q 2534 256 2681 213 
+Q 2838 169 3394 169 
+Q 3934 169 4081 234 
+Q 4219 297 4253 534 
+Q 4294 794 4309 1484 
+L 4313 1650 
+L 4844 1447 
+Q 4809 594 4756 291 
+Q 4681 -122 4356 -241 
+Q 4081 -341 3309 -341 
+Q 2584 -341 2366 -269 
+Q 2122 -191 2053 28 
+Q 2016 150 2016 331 
+L 2016 3969 
+z
+M 3963 4038 
+Q 3147 4578 2100 4991 
+L 2413 5388 
+Q 3375 5038 4281 4459 
+L 3963 4038 
+z
+M 5703 750 
+Q 5197 2106 4581 3138 
+L 5038 3372 
+Q 5706 2288 6194 1031 
+L 5703 750 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#BIZUDPGothic-Regular-91cd"/>
+     <use xlink:href="#BIZUDPGothic-Regular-5fc3" x="100"/>
+    </g>
+   </g>
+   <g id="text_2">
+    <!-- 前寄り -->
+    <g transform="translate(72.721719 250.870625) scale(0.22 -0.22)">
+     <defs>
+      <path id="BIZUDPGothic-Regular-524d" d="M 2041 4550 
+Q 1822 4969 1581 5313 
+L 2084 5478 
+Q 2347 5103 2591 4550 
+L 3834 4550 
+Q 4072 4953 4288 5503 
+L 4844 5350 
+Q 4641 4934 4381 4550 
+L 6241 4550 
+L 6241 4122 
+L 159 4122 
+L 159 4550 
+L 2041 4550 
+z
+M 3041 3541 
+L 3041 -56 
+Q 3041 -325 2925 -431 
+Q 2813 -531 2513 -531 
+Q 2222 -531 1906 -506 
+L 1819 -31 
+Q 2131 -84 2409 -84 
+Q 2516 -84 2541 -31 
+Q 2559 9 2559 97 
+L 2559 1075 
+L 1172 1075 
+L 1172 -609 
+L 691 -609 
+L 691 3541 
+L 3041 3541 
+z
+M 1172 3131 
+L 1172 2509 
+L 2559 2509 
+L 2559 3131 
+L 1172 3131 
+z
+M 1172 2119 
+L 1172 1472 
+L 2559 1472 
+L 2559 2119 
+L 1172 2119 
+z
+M 3831 3397 
+L 4313 3397 
+L 4313 678 
+L 3831 678 
+L 3831 3397 
+z
+M 5209 3681 
+L 5709 3681 
+L 5709 -31 
+Q 5709 -288 5609 -409 
+Q 5484 -569 5100 -569 
+Q 4591 -569 4203 -525 
+L 4091 -25 
+Q 4631 -97 4981 -97 
+Q 5147 -97 5184 -31 
+Q 5209 16 5209 103 
+L 5209 3681 
+z
+" transform="scale(0.015625)"/>
+      <path id="BIZUDPGothic-Regular-5bc4" d="M 5222 2059 
+L 5222 -103 
+Q 5222 -359 5091 -481 
+Q 4956 -603 4644 -603 
+Q 4138 -603 3603 -553 
+L 3519 -109 
+Q 4147 -188 4513 -188 
+Q 4650 -188 4684 -131 
+Q 4709 -91 4709 6 
+L 4709 2059 
+L 159 2059 
+L 159 2450 
+L 1178 2450 
+L 953 2797 
+Q 2491 2997 2847 3597 
+L 1131 3597 
+L 1131 3969 
+L 2925 3969 
+L 2925 4359 
+L 3428 4359 
+L 3428 3969 
+L 5259 3969 
+L 5259 3597 
+L 3372 3597 
+Q 3363 3575 3334 3516 
+Q 4475 3181 5363 2791 
+L 5084 2450 
+L 6241 2450 
+L 6241 2059 
+L 5222 2059 
+z
+M 5028 2450 
+L 4981 2472 
+Q 4344 2781 3309 3169 
+L 3141 3231 
+Q 2884 2947 2463 2769 
+Q 2106 2619 1322 2450 
+L 5028 2450 
+z
+M 3419 4891 
+L 5978 4891 
+L 5978 3784 
+L 5484 3784 
+L 5484 4506 
+L 903 4506 
+L 903 3784 
+L 403 3784 
+L 403 4891 
+L 2925 4891 
+L 2925 5472 
+L 3419 5472 
+L 3419 4891 
+z
+M 3800 1619 
+L 3800 225 
+L 1619 225 
+L 1619 -122 
+L 1125 -122 
+L 1125 1619 
+L 3800 1619 
+z
+M 1619 1253 
+L 1619 603 
+L 3313 603 
+L 3313 1253 
+L 1619 1253 
+z
+" transform="scale(0.015625)"/>
+      <path id="BIZUDPGothic-Regular-308a" d="M 2413 2591 
+Q 2122 2075 1822 1797 
+Q 1559 1556 1366 1556 
+Q 788 1556 788 3281 
+Q 788 4141 988 5141 
+L 1484 5069 
+Q 1294 4006 1294 3269 
+Q 1294 2169 1463 2169 
+Q 1519 2169 1653 2309 
+Q 1919 2591 2113 2988 
+L 2413 2591 
+z
+M 2150 84 
+Q 3097 347 3591 922 
+Q 4166 1591 4166 2922 
+Q 4166 3878 3969 5159 
+L 4488 5209 
+Q 4697 3956 4697 2897 
+Q 4697 1275 3938 519 
+Q 3403 -16 2425 -347 
+L 2150 84 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#BIZUDPGothic-Regular-524d"/>
+     <use xlink:href="#BIZUDPGothic-Regular-5bc4" x="100"/>
+     <use xlink:href="#BIZUDPGothic-Regular-308a" x="200"/>
+    </g>
+   </g>
+   <g id="patch_7">
+    <path d="M 315.471767 145.2413 
+Q 303.274143 153.768608 291.076519 162.295917 
+" style="fill: none; stroke: #002060; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <!-- 重心 -->
+    <g style="fill: #002060" transform="translate(313.2 137.52) scale(0.22 -0.22)">
+     <use xlink:href="#BIZUDPGothic-Regular-91cd"/>
+     <use xlink:href="#BIZUDPGothic-Regular-5fc3" x="100"/>
+    </g>
+   </g>
+   <g id="text_4">
+    <!-- 後ろ寄り -->
+    <g transform="translate(242.27 250.870625) scale(0.22 -0.22)">
+     <defs>
+      <path id="BIZUDPGothic-Regular-5f8c" d="M 3250 2506 
+Q 3100 2500 2884 2484 
+Q 2784 2478 2138 2453 
+L 2009 2875 
+Q 2344 2881 3025 2903 
+L 3059 2938 
+Q 3144 3016 3397 3259 
+Q 2881 3875 2175 4444 
+L 2503 4750 
+Q 2763 4544 2953 4363 
+Q 3397 4881 3738 5494 
+L 4184 5275 
+Q 3691 4559 3234 4091 
+Q 3466 3850 3706 3572 
+L 3794 3666 
+Q 4419 4325 4897 4950 
+L 5306 4694 
+Q 4578 3803 3634 2925 
+Q 3953 2944 4113 2950 
+Q 4344 2963 5284 3028 
+Q 5028 3403 4800 3675 
+L 5178 3888 
+Q 5706 3291 6150 2516 
+L 5747 2288 
+Q 5588 2563 5503 2691 
+Q 4784 2603 3784 2541 
+Q 3638 2291 3472 2069 
+L 5294 2069 
+L 5594 1800 
+Q 5063 1072 4419 581 
+Q 5159 119 6259 -134 
+L 5978 -588 
+Q 4894 -291 4019 306 
+Q 3019 -334 1984 -600 
+L 1722 -172 
+Q 2744 63 3644 591 
+Q 3628 606 3606 625 
+Q 3228 941 2853 1384 
+Q 2559 1116 2169 891 
+L 1850 1219 
+Q 2684 1666 3250 2506 
+z
+M 4041 850 
+Q 4575 1234 4916 1672 
+L 3156 1672 
+Q 3553 1219 4041 850 
+z
+M 1525 2909 
+L 1525 -609 
+L 1031 -609 
+L 1031 2284 
+Q 738 1947 372 1619 
+L 116 2053 
+Q 1000 2791 1659 4031 
+L 2081 3803 
+Q 1819 3322 1525 2909 
+z
+M 178 3981 
+Q 972 4591 1484 5441 
+L 1906 5216 
+Q 1309 4250 453 3603 
+L 178 3981 
+z
+" transform="scale(0.015625)"/>
+      <path id="BIZUDPGothic-Regular-308d" d="M 1197 5006 
+L 4194 5006 
+L 4475 4616 
+Q 2753 3397 1794 2600 
+Q 2647 3003 3484 3003 
+Q 4225 3003 4725 2719 
+Q 5416 2325 5416 1541 
+Q 5416 409 4322 13 
+Q 3591 -253 2241 -278 
+L 2075 200 
+Q 3444 219 4050 434 
+Q 4859 725 4859 1538 
+Q 4859 2063 4453 2341 
+Q 4097 2581 3494 2581 
+Q 2694 2581 2013 2331 
+Q 1497 2141 866 1556 
+L 506 1928 
+Q 1763 3228 3688 4559 
+L 1197 4559 
+L 1197 5006 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#BIZUDPGothic-Regular-5f8c"/>
+     <use xlink:href="#BIZUDPGothic-Regular-308d" x="100"/>
+     <use xlink:href="#BIZUDPGothic-Regular-5bc4" x="195.019531"/>
+     <use xlink:href="#BIZUDPGothic-Regular-308a" x="295.019531"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7d6b0843ae">
+   <rect x="0" y="0" width="388.8" height="288"/>
+  </clipPath>
+ </defs>
+</svg>

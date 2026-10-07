@@ -95,3 +95,48 @@
 
 .plain-column > .plain-video { flex: 1 1 0; height: auto; }
 
+/* Research example: a consistent title, evidence area, and concluding sentence.
+   Canvas pixels × 0.75 = PowerPoint points (body 28 pt, heading 36 pt). */
+.paper-example { --plain-margin: 64px; --plain-title-size: 48px; --plain-body-size: 34.667px; }
+.paper-example .plain-header { padding: 52px 64px 0; }
+.paper-example .plain-header h1 { color: #171717; font-weight: 700; }
+.paper-example .plain-section { position: absolute; right: 114px; top: 28px; font-size: 30px; line-height: 1.2; font-weight: 700; color: var(--plain-blue); margin: 0; }
+.paper-example .plain-page { right: 64px; top: 33px; font-size: 24px; color: #555; }
+.paper-example .plain-body { padding-top: 30px; padding-bottom: 18px; }
+.paper-example .plain-column { font-size: 37.333px; line-height: 1.5; }
+.paper-example h2 { font-size: 36px; margin-bottom: 20px; }
+.paper-example .plain-column > h2:not(:first-child) { margin-top: 32px; }
+.paper-example .plain-prose > h2:not(:first-child) { margin-top: 36px; }
+.paper-example .plain-column li { margin: 18px 0; }
+.paper-example .plain-takeaway { min-height: 110px; padding: 16px 64px 46px; text-align: center; font-size: 37.333px; font-weight: 400; }
+.paper-example .plain-takeaway strong { color: var(--plain-blue); }
+.paper-example .plain-note { position: absolute; bottom: 12px; left: 0; padding: 0 64px; font-size: 20px; }
+.paper-example .plain-summary { justify-content: space-between; gap: 24px; padding: 6px 0 14px; }
+.paper-example .plain-summary h2 { margin-bottom: 16px; }
+.paper-example .plain-summary p { margin-left: 0; font-size: 37.333px; }
+.paper-conditions th, .paper-conditions td { padding: 18px 12px; }
+.paper-purpose .plain-column:nth-child(2), .paper-two-blocks .plain-column:nth-child(2), .paper-three-blocks .plain-column:nth-child(2) { justify-content: space-between; padding: 6px 0 14px; }
+.paper-text-block h2 { margin: 0 0 16px; }
+.paper-text-block p { margin: 0; }
+.paper-specs { margin: 0; display: grid; gap: 14px; }
+.paper-specs > div { display: grid; grid-template-columns: 116px 1fr; align-items: baseline; gap: 20px; }
+.paper-specs dt { font-size: 28px; color: #555; }
+.paper-specs dd { margin: 0; font-size: 37.333px; }
+.paper-trials .paper-text-block:last-child p { font-size: 30px; white-space: nowrap; }
+.paper-factor-block { display: flex; flex-direction: column; height: 100%; }
+.paper-factor-block h2 { margin: 0 0 14px; }
+.paper-factor-block .plain-media { flex: 1; min-height: 0; }
+.paper-factor-block > p { margin: 16px 0 0; }
+.paper-hypothesis-check .plain-column:nth-child(2) { justify-content: space-between; padding: 6px 0 12px; }
+.paper-hypothesis-check .paper-comparison-block h2 { margin: 0 0 20px; }
+.paper-relation { display: grid; grid-template-columns: 1fr 72px 1fr; align-items: start; text-align: center; }
+.paper-relation > div { display: flex; flex-direction: column; gap: 10px; }
+.paper-relation strong, .paper-relation-sign { font-size: 56px; line-height: 1.2; }
+.paper-relation-sign { font-weight: 400; }
+.paper-relation > div > span { font-size: 34.667px; line-height: 1.35; }
+.paper-observation .paper-relation > div:first-child, .paper-observation .paper-relation-sign { color: var(--plain-blue); }
+.paper-cover .plain-cover-title { top: 140px; left: 64px; right: 430px; text-align: left; }
+.paper-cover .plain-cover-title h1 { color: var(--plain-blue); font-size: 76px; }
+.paper-cover .plain-cover-image { position: absolute; top: 105px; right: 64px; width: 340px; height: 475px; object-fit: contain; }
+.paper-cover .plain-cover-meta { left: 64px; right: 64px; bottom: 76px; text-align: left; }
+.paper-cover .plain-subtitle { font-size: 34.667px; }
